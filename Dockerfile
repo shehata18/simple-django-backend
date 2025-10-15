@@ -4,4 +4,4 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 8000
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "simple_django_backend.simple_django_backend.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "simple-django-backend.simple_django_backend.wsgi:application"]
