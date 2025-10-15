@@ -1,0 +1,5 @@
+# Requirements for simple_django_backend
+# Django version referenced in settings.py
+Django==4.2.6
+# Gunicorn is used in the Dockerfile to run the app
+gunicorn>=20.1.0
